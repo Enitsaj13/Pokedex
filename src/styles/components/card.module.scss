@@ -85,8 +85,6 @@
   .card {
     width: 150px;
     height: 186px;
-    position: relative;
-    bottom: 3.5rem;
 
     .card_footer {
       height: 50px;
@@ -115,37 +113,47 @@
   }
 }
 
-@media (max-width: medias.$mobile) {
+@media screen and (max-width: medias.$mobile) {
   .card {
-    width: 100px;
-    height: 113px;
+    width: 140px;
+    height: 149px;
     position: relative;
-    bottom: 5rem;
+    bottom: 1rem;
+
+    .card_image {
+      position: relative;
+      bottom: 0.5rem;
+    }
 
     .card_footer {
       height: 28.5px;
-      width: 98px;
+      width: 138px;
+      position: relative;
+      bottom: 0.6rem;
     }
 
     .card_number {
-      width: 40%;
+      width: 30%;
       height: 15%;
 
       span {
         font-size: 0.7rem;
         position: relative;
-        inset: -0.1rem 0 0 0.2rem;
+        bottom: 0.2rem;
+        right: 0.6rem;
       }
     }
 
     .card_name {
-      font-size: 0.9rem;
+      font-size: 0.7rem;
+      position: relative;
+      bottom: 0.2rem;
     }
 
     .card_type {
       font-size: 0.6rem;
       position: relative;
-      bottom: 0.5rem;
+      bottom: 0.6rem;
     }
   }
 }
