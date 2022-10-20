@@ -1,0 +1,21 @@
+@use '../fonts';
+@use '../colors';
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-image: colors.$bg;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  .footer_text {
+    font-family: fonts.$font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: colors.$white;
+    text-align: center;
+    padding-top: 40px;
+  }
+}

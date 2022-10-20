@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Getting Started with Pokedex React Application
 
-## Getting Started
+To Run this Pokedex, just simply clone it or download it.
 
-First, run the development server:
+- git clone https://github.com/Enitsaj13/Pokedex.git
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Go to the react_code_challenge directory and type 'yarn'
+to download all the dependencies and node modules.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- yarn
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Now, you can start testing the app by simply typing 'yarn dev' in the terminal.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- yarn dev
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Go to your preferred browser and type 'localhost:3000' on the url.
 
-## Learn More
+- localhost:3000
 
-To learn more about Next.js, take a look at the following resources:
+You can also build the app by typing 'yarn build' in the terminal.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- yarn build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This will create a dist folder with the index.html file and the bundle.js file.
 
-## Deploy on Vercel
+- dist
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+HOW CAN I SOLVE THIS CHALLENGE?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- The first thing I did was analyzing the given problem based on the instructions on the READE.md file and given data / assets. After I analyzed and see what the actual output I need to produce, I proceed to the tech stacks that I need to use to develop and solve this challenge.
+  I decided to used TypeScript with NextJs and Sass to improve my little knowledge in these technology, since it is allowed as long as it is build using React Js, even though it is hard to code and program since I am Newbie in React especially in these framework / language.
+
+- Throughout the program, I implemented the reusable components such as header, footer, card, etc. And make my own folder structure which is for me a good and clean. In terms of clean code, for me my codes are clean since it is not repeatable and I do a lot of mapping / looping inside the components / elements to produced a clean and better codes. But the challenge for me is the TypeScript because everytime I code, it always shows an error but I didn't give up to resolve and fixed all those errors giving by the TypeScript.
+
+- The very challenge for me was the implementation a reusable components which is cards and looping it together its data (json) and looping again its sub data with classname. That is the one I cannot achived, so I decided to change my preferred design. The next thing that for me is hard was fetching and looping the pokemon.json file including its data like images, because for me mapping the data of json file is the best practice unlike showing it hard coded.
+
+- Then, I noticed, why there are loading and error page, what is the purposed of it? I know it is used if there is an searching error or if the data is not yet loaded. So, I decided to implement it on my own understanding. I used the loading page before the index page is loaded. I know it is wrong but I don't know how to implement it on the right way, since I am new in React Js. I know it is implemented in searching but I only have a limited time to solve this challenge. I also implemented the error page if the data is not yet loaded or if there is an error in fetching the data. But I used this error page if the user is typing a wrong url. That's how I implemented the loading and error page.
+
+- In terms of testing the React App, I did not try to test my app since I focusing to solve the challenge. But I know how to test it, I search a while a go. I just need to learn more about it and I will try to implement it on my next project. I know it is important to test the app to make sure that it is working properly. But I try to build the app and it is working properly. I also try to deploy it on Vercel and it is working properly. That's all for now. Thank you for this opportunity and I hope you will consider me to be part of your team. Thank you and God Bless!

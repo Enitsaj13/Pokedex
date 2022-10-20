@@ -1,0 +1,149 @@
+@use '../fonts';
+@use '../colors';
+@use '../medias';
+
+.card {
+  margin: 0rem 1rem;
+  padding: 0 1rem;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid colors.$white;
+  border-radius: 10px;
+  width: 200px;
+  height: 260px;
+
+  .card_image {
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: transform 0.6s ease;
+    }
+  }
+
+  .card_footer {
+    background: colors.$fire;
+    color: colors.$white;
+    height: 71px;
+    width: 198px;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    right: 1rem;
+  }
+
+  .card_number {
+    font-size: 0.8rem;
+    text-align: left;
+    position: relative;
+    right: 1rem;
+    width: 28%;
+    height: 8%;
+    color: colors.$white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: colors.$blue;
+
+    span {
+      position: relative;
+      inset: 0.2rem 0 0 0.3rem;
+    }
+  }
+
+  .card_name {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-family: fonts.$font;
+
+    span {
+      font-weight: 700;
+      color: colors.$white;
+      position: relative;
+      bottom: 0.2rem;
+    }
+  }
+
+  .card_type {
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-family: fonts.$font;
+
+    span {
+      color: colors.$white;
+    }
+  }
+}
+
+@media screen and (max-width: medias.$tablet) {
+  .card {
+    width: 150px;
+    height: 186px;
+    position: relative;
+    bottom: 3.5rem;
+
+    .card_footer {
+      height: 50px;
+      width: 148px;
+    }
+
+    .card_number {
+      width: 30%;
+      height: 10%;
+
+      span {
+        font-size: 0.5rem;
+        position: relative;
+        inset: 0.1rem 0 0 0.2rem;
+      }
+    }
+
+    .card_name {
+      font-size: 0.8rem;
+      padding-top: 0.5rem;
+    }
+
+    .card_type {
+      font-size: 0.5rem;
+    }
+  }
+}
+
+@media (max-width: medias.$mobile) {
+  .card {
+    width: 100px;
+    height: 113px;
+    position: relative;
+    bottom: 5rem;
+
+    .card_footer {
+      height: 28.5px;
+      width: 98px;
+    }
+
+    .card_number {
+      width: 40%;
+      height: 15%;
+
+      span {
+        font-size: 0.4rem;
+        position: relative;
+        inset: -0.1rem 0 0 0.2rem;
+      }
+    }
+
+    .card_name {
+      font-size: 0.5rem;
+    }
+
+    .card_type {
+      font-size: 0.3rem;
+      position: relative;
+      bottom: 0.5rem;
+    }
+  }
+}

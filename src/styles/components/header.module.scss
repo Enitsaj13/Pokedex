@@ -1,0 +1,45 @@
+@use '../fonts';
+@use '../colors';
+@use '../medias';
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-image: colors.$bg;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  .header_text {
+    font-family: fonts.$font;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    color: colors.$white;
+    text-align: center;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: medias.$tablet) {
+  .header {
+    height: 50px;
+
+    .header_text {
+      font-size: 20px;
+      padding-top: 20px;
+    }
+  }
+}
+
+@media (max-width: medias.$mobile) {
+  .header {
+    height: 50px;
+
+    .header_text {
+      font-size: 15px;
+      padding-top: 20px;
+    }
+  }
+}

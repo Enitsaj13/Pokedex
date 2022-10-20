@@ -1,0 +1,137 @@
+{
+  "total": 12,
+  "entries": [
+    {
+      "number": "1",
+      "id": "#01",
+      "name": "Bulbasaur",
+      "types": "Grass",
+      "image": {
+        "url": "/assets/001.png",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "number": "2",
+      "id": "#02",
+      "name": "Ivysaur",
+      "types": "Grass",
+      "image": {
+        "url": "/assets/002.png",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "number": "3",
+      "id": "#03",
+      "name": "Venusaur",
+      "types": "Grass",
+      "image": {
+        "url": "/assets/003.png",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "number": "4",
+      "id": "#04",
+      "name": "Charmander",
+      "types": "Fire",
+      "image": {
+        "url": "/assets/004.png",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "number": "5",
+      "id": "#05",
+      "name": "Charmeleon",
+      "types": "Fire",
+      "image": {
+        "url": "/assets/005.png",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "number": "6",
+      "id": "#06",
+      "name": "Charizard",
+      "types": "Fire",
+      "image": {
+        "url": "/assets/006.png",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "number": "7",
+      "id": "#07",
+      "name": "Squirtle",
+      "types": "Water",
+      "image": {
+        "url": "/assets/007.png",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "number": "8",
+      "id": "#08",
+      "name": "Wartortle",
+      "types": "Water",
+      "image": {
+        "url": "/assets/008.png",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "number": "9",
+      "id": "#09",
+      "name": "Blastoise",
+      "types": "Water",
+      "image": {
+        "url": "/assets/009.png",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "number": "10",
+      "id": "#10",
+      "name": "Caterpie",
+      "types": "Bug",
+      "image": {
+        "url": "/assets/010.png",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "number": "11",
+      "id": "#11",
+      "name": "Metapod",
+      "types": "Bug",
+      "image": {
+        "url": "/assets/011.png",
+        "width": 475,
+        "height": 475
+      }
+    },
+    {
+      "number": "12",
+      "id": "#12",
+      "name": "Butterfree",
+      "types": "Bug",
+      "image": {
+        "url": "/assets/012.png",
+        "width": 475,
+        "height": 475
+      }
+    }
+  ]
+}
